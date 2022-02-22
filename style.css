@@ -1,0 +1,137 @@
+body {
+  background-color: #E8F6EF;
+  margin: 0;
+}
+
+/* Header */
+.Header {
+  text-align: center;
+  margin: 0;
+  padding: 1%;
+}
+
+.Profile-pic {
+  width: 10%;
+  margin: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #B8DFD8;
+  border-radius: 10px
+}
+
+.Name {
+  font-size: 40px;
+  font-weight: bold;
+  color: #4fb09e;
+  margin: 10px;
+}
+
+.Info {
+  margin: 10px auto 20px auto;
+}
+
+hr {
+  border-style: dotted;
+  border-width: 8px;
+  border-color: #B8DFD8;
+  border-bottom: none;
+  margin: auto;
+  width: 80%;
+}
+
+/* Skills */
+.Skills {
+  text-align: center;
+  margin-top: 10px;
+  padding: 1%;
+}
+
+.Skills-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4fb09e;
+  margin: 10px;
+}
+
+.Icons {
+  background-color: #B8DFD8;
+  margin: 20px auto 40px auto;
+  width: 80%;
+}
+
+.Skills-icons {
+  width: 10%;
+  margin: 20px 40px 10px 40px;
+}
+
+/* Hobbies */
+.Hobbies {
+  text-align: center;
+  margin-top: 10px;
+  padding: 1%;
+}
+
+.Hobbies-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4fb09e;
+  margin: 10px;
+}
+
+.Hobbies-row {
+  text-align: left;
+  margin: 50px auto 100px auto;
+  width: 50%;
+}
+
+.Hobbies-icon-L {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Hobbies-icon-R {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.Hobbies-list {
+  color: #4fb09e;
+}
+
+.Hobbies-info {
+  line-height: 2;
+}
+
+/* Map */
+.Map {
+  text-align: center;
+  margin: 50px auto 50px auto;
+}
+
+.Map-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4fb09e;
+  margin: 10px;
+}
+
+/* Fotter */
+.Fotter {
+  background-color: #B8DFD8;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+a {
+  color: #3f8d7f;
+  margin: auto 10px auto 10px;
+  text-decoration: none;
+}
+
+.copy {
+  color: grey;
+  margin: 10px auto 5px auto;
+}
