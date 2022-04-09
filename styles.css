@@ -1,0 +1,238 @@
+body {
+  background-color: #FEFBF3;
+  margin: 0;
+  text-align: center;
+}
+
+/* Profile */
+.p-i {
+  padding: 2.5%;
+}
+
+.profile {
+  display: inline;
+}
+
+.profile-info {
+  display: inline;
+}
+
+.profile-pic {
+  float: left;
+  box-shadow: 0 0 0 0;
+  margin-right: 2%;
+  width: 10%;
+}
+
+.Name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #79B4B7;
+  text-align: left;
+  margin: 0;
+}
+
+.Info {
+  text-align: left;
+}
+
+.profile-hr {
+  border: 8px solid #F8F0DF;
+  border-bottom: none;
+  margin: 0;
+}
+
+/* Skills */
+.Skills {
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.Skills-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #79B4B7;
+  margin: 10px;
+}
+
+.Icons {
+  background-color: #F8F0DF;
+  margin: 20px auto 40px auto;
+  width: 80%;
+}
+
+.Skills-icons {
+  width: 10%;
+  margin: 2%;
+}
+
+.skills-hr {
+  border: 8px solid #F8F0DF;
+  border-bottom: none;
+  margin: 0;
+}
+
+/* Hobbies */
+.Hobbies {
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.Hobbies-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #79B4B7;
+  margin: 2%;
+}
+
+.Hobbies-row {
+  background-color: #F8F0DF;
+  padding: 1%;
+}
+
+.Hobbies-row-L {
+  text-align: left;
+  margin: 4% auto;
+  height: 164px;
+  width: 50%;
+}
+
+.Hobbies-row-R {
+  text-align: right;
+  margin: 4% auto;
+  height: 164px;
+  width: 50%;
+}
+
+.Hobbies-icon-L {
+  border-left: 5px solid #79B4B7;
+  border-bottom: 5px solid #79B4B7;
+  box-shadow: 0 0 0 0;
+  width: 25%;
+  float: left;
+  margin-right: 2.9%;
+}
+
+.Hobbies-icon-R {
+  border-right: 5px solid #79B4B7;
+  border-bottom: 5px solid #79B4B7;
+  box-shadow: 0 0 0 0;
+  width: 25%;
+  float: right;
+  margin-left: 2.9%;
+}
+
+.Hobbies-list {
+  color: #79B4B7;
+  font-size: 1.3rem;
+}
+
+.Hobbies-info {
+  line-height: 2;
+}
+
+.Hobbies-hr {
+  border: 8px solid #F8F0DF;
+  border-bottom: none;
+  margin: 0;
+}
+
+/* Projects */
+.projects{
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.projects-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #79B4B7;
+  margin: 2%;
+}
+
+.organic-foods {
+  background-color: #F8F0DF;
+  text-align: center;
+  margin: 1.5% auto;
+  padding: 1%;
+}
+
+.organic-foods-pic {
+  box-shadow: 0 0 0 0;
+  margin: 1% auto;
+  width: 50%;
+}
+
+.organic-foods-title {
+  color: darkgrey;
+  margin: 1% auto;
+  font-size: 1.3rem;
+}
+
+.apple {
+  background-color: #F8F0DF;
+  text-align: center;
+  margin: 1.5% auto;
+  padding: 1%;
+}
+
+.apple-pic {
+  box-shadow: 0 0 0 0;
+  margin: 1% auto;
+  width: 50%;
+}
+
+.apple-title {
+  color: darkgrey;
+  margin: 1% auto;
+  font-size: 1.3rem;
+}
+
+.projects-hr {
+  border: 8px solid #F8F0DF;
+  border-bottom: none;
+  margin: 0;
+}
+
+/* Location */
+.location{
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.location-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #79B4B7;
+  margin: 2%;
+}
+
+/* fotter */
+.fotter {
+  background-color: #F8F0DF;
+  margin: 0;
+  padding: 1%;
+  text-align: center;
+}
+
+.contact {
+  font-size: 0.85rem;
+  margin: 0 0.5% 0 0.5%;
+}
+
+.social {
+  color: black;
+  text-decoration: none;
+}
+
+.social:hover {
+  color: darkslategrey;
+}
+
+.copyright {
+  color: grey;
+  font-size: 0.8rem;
+  margin: 1% 0 0 0;
+}

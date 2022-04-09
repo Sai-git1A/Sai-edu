@@ -3,23 +3,32 @@
 
 <head>
   <meta charset="utf-8">
-  <title>My Profile</title>
+  <title>Sai Dharshan</title>
+  <!-- favicon -->
   <link rel="shortcut icon" href="favicon.ico">
-  <link rel="stylesheet" href="style.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/6440e9e64a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <!-- Header -->
-  <div class="Header">
-    <img class="Profile-pic" src="Profile Pic.jpg" alt="Profile Pic">
-    <h1 class="Name">Sai Dharshan</h1>
-    <p class="Info">I am a student intern working on <em><strong>full-stack web development</strong></em> at <strong>Edureka</strong>.</p>
-    <hr>
+  <!-- Profile -->
+  <div class="p-i">
+    <div class="profile">
+      <img class="profile-pic" src="Profile Pic.jpg" alt="Profile Picture">
+    </div>
+    <div class="profile-info">
+      <h1 class="Name">Sai Dharshan</h1>
+      <p class="Info">I am a student intern working on <em><strong>full-stack web development</strong></em> at <strong>Edureka</strong>.</p>
+    </div>
   </div>
-
 
   <!-- Skills -->
   <div class="Skills">
+    <hr class="profile-hr">
     <h2 class="Skills-title">Skills</h2>
     <div class="Icons">
       <img class="Skills-icons" src="Images/Skills/html-5.png" alt="HTML">
@@ -30,40 +39,62 @@
       <img class="Skills-icons" src="Images/Skills/react.png" alt="React">
       <img class="Skills-icons" src="Images/Skills/mongodb.png" alt="Mongodb">
     </div>
-    <hr>
   </div>
-
 
   <!-- Hobbies -->
   <div class="Hobbies">
+    <hr class="skills-hr">
     <h2 class="Hobbies-title">Hobbies</h2>
-    <div class="Hobbies-row">
+    <div class="Hobbies-row Hobbies-row-L">
       <img class="Hobbies-icon-L" src="Images/Hobbies/watching-tv.png" alt="Watching-TV">
       <h3 class="Hobbies-list">Watching T.V</h3>
       <p class="Hobbies-info">I like watching hollywood movies and curious to know about ancient history.</p>
     </div>
-    <div class="Hobbies-row">
+    <div class="Hobbies-row Hobbies-row-R">
       <img class="Hobbies-icon-R" src="Images/Hobbies/listening.png" alt="listening">
       <h3 class="Hobbies-list">Listening music</h3>
       <p class="Hobbies-info">Music make me to stay productive and calm.</p>
     </div>
-    <div class="Hobbies-row">
+    <div class="Hobbies-row Hobbies-row-L">
       <img class="Hobbies-icon-L" src="Images/Hobbies/writing.png" alt="writing">
       <h3 class="Hobbies-list">Wirting</h3>
       <p class="Hobbies-info">My mind is always filled with creative thoughts.</p>
     </div>
-    <div class="Hobbies-row">
+    <div class="Hobbies-row Hobbies-row-R">
       <img class="Hobbies-icon-R" src="Images/Hobbies/gardener.png" alt="gardener">
       <h3 class="Hobbies-list">Gardening</h3>
       <p class="Hobbies-info">I am very grateful to grow plants and it makes me feel good.</p>
     </div>
-    <hr>
   </div>
 
+  <!-- Projects -->
+  <div class="projects">
+    <hr class="Hobbies-hr">
+    <h2 class="projects-title">Projects</h2>
+    <div class="organic-foods">
+      <div class="organic-foods-img">
+        <a class="organic-foods-link" target="_blank" href="https://sai-git1a.github.io/Organic-foods/"><img class="organic-foods-pic" src="Images/Projects/Organic foods.png" alt="organic foods image"></a>
+      </div>
+      <div class="organic-foods-details">
+        <h3 class="organic-foods-title" >Organic foods</h3>
+        <p class="organic-foods-sub" >Organic food is food and drinks produced by methods complying with the standards of organic farming. Standards vary worldwide, but organic farming features practices that cycle resources, promote ecological balance, and conserve biodiversity.</p>
+      </div>
+    </div>
+    <div class="apple">
+      <div class="apple-img">
+        <a class="apple-link" target="_blank" href="https://sai-git1a.github.io/Second-Task-Apple/"><img class="apple-pic" src="Images/Projects/Apple.png" alt="Apple image"></a>
+      </div>
+      <div class="apple-details">
+        <h3 class="apple-title" >Apple</h3>
+        <p class="apple-sub" >Apple Inc. is an American multinational technology company that specializes in consumer electronics, software and online services.</p>
+      </div>
+    </div>
+  </div>
 
-  <!-- Map -->
-  <div class="Map">
-    <h2 class="Map-title">You can meet me here</h2>
+  <!-- Location -->
+  <div class="location">
+    <hr class="projects-hr">
+    <h2 class="location-title">You can meet me here</h2>
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30806.9059336946!2d77.35687574776165!3d15.165853442363797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb6e588fd694eb9%3A0x7b06013dc38a2300!2sGuntakal%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1645421836214!5m2!1sen!2sin"
       width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -71,13 +102,14 @@
 
   <!-- Fotter -->
   <footer>
-    <div class="Fotter">
-      <a href="https://www.linkedin.com/in/sai-dharshan-n-ba3746232/" target="_blank">Linkedin</a>
-      <a href="https://github.com/Sai-git1A" target="_blank">Github</a>
-      <p class="copy">© Sai Dharshan.</p>
+    <div class="fotter" id="footer">
+      <a target="_blank" href="https://www.facebook.com/" class="social"><i class="fa-brands fa-facebook-f contact"></i></a>
+      <a target="_blank" href="https://twitter.com/" class="social"><i class="fa-brands fa-twitter contact"></i></a>
+      <a target="_blank" href="https://www.whatsapp.com/" class="social"><i class="fa-brands fa-whatsapp contact"></i></a>
+      <a target="_blank" href="https://www.google.com/gmail/" class="social"><i class="fa-solid fa-envelope contact"></i></a>
+      <p class="copyright">&#169; Sai Dharshan</p>
     </div>
   </footer>
-
 </body>
 
 </html>
